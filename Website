@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rilwan Chathoth Puthiyapurayil - Freelancer & Transportation Coordinator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+        header a {
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        .showcase {
+            min-height: 400px;
+            background: url('showcase.jpg') no-repeat 0 -400px;
+            text-align: center;
+            color: #ffffff;
+        }
+        .showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        .showcase p {
+            font-size: 20px;
+        }
+        .main-content {
+            margin: 20px 0;
+        }
+        .main-content h2 {
+            text-align: center;
+            margin: 20px 0;
+            color: #35424a;
+        }
+        .content-section {
+            background: #ffffff;
+            padding: 20px;
+            margin: 20px 0;
+            border: #e8491d 1px solid;
+        }
+        .content-section h3 {
+            margin-top: 0;
+        }
+        footer {
+            background: #35424a;
+            color: #ffffff;
+            text-align: center;
+            padding: 30px 0;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Rilwan Chathoth Puthiyapurayil</span></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="showcase">
+        <div class="container">
+            <h1>Welcome to My Professional Page</h1>
+            <p>Freelancer & Transportation Coordinator in Qatar</p>
+        </div>
+    </section>
+
+    <div class="container main-content">
+        <section id="about" class="content-section">
+            <h2>About Me</h2>
+            <p>Hello! I'm Rilwan Chathoth Puthiyapurayil, a freelancer based in Qatar with extensive experience as a transportation coordinator. I specialize in managing transportation logistics and ensuring efficient operations.</p>
+        </section>
+
+        <section id="experience" class="content-section">
+            <h2>Experience</h2>
+            <h3>Transportation Coordinator</h3>
+            <p>I have worked as a transportation coordinator, managing the logistics and operations of transportation services to ensure timely and efficient delivery. My role involved coordinating with various departments, managing schedules, and optimizing routes.</p>
+            <!-- You can add more experience details here -->
+        </section>
+
+        <section id="services" class="content-section">
+            <h2>Services</h2>
+            <p>I offer a range of services including:</p>
+            <ul>
+                <li>Transportation logistics management</li>
+                <li>Route optimization</li>
+                <li>Coordination with departments and teams</li>
+                <li>Freelance consulting</li>
+            </ul>
+        </section>
+
+        <section id="contact" class="content-section">
+            <h2>Contact</h2>
+            <p>If you would like to get in touch with me, please reach out via email at: rilwan@example.com</p>
+            <!-- Add your actual contact details -->
+        </section>
+    </div>
+
+    <footer>
+        <p>Rilwan Chathoth Puthiyapurayil &copy; 2024</p>
+    </footer>
+</body>
+</html>
